@@ -468,6 +468,7 @@
 				1394B96F193AFE2C00277712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1394B970193AFE2C00277712 /* Build configuration list for PBXNativeTarget "ShelterConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				1394B972193AFE2C00277712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

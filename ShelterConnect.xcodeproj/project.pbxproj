@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1394B939193AFE2B00277712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B938193AFE2B00277712 /* Foundation.framework */; };
+		1394B93B193AFE2B00277712 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B93A193AFE2B00277712 /* CoreGraphics.framework */; };
+		1394B93D193AFE2B00277712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B93C193AFE2B00277712 /* UIKit.framework */; };
+		1394B943193AFE2B00277712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1394B941193AFE2B00277712 /* InfoPlist.strings */; };
+		1394B945193AFE2B00277712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B944193AFE2B00277712 /* main.m */; };
+		1394B949193AFE2B00277712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B948193AFE2B00277712 /* AppDelegate.m */; };
+		1394B94C193AFE2B00277712 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B94B193AFE2B00277712 /* RootViewController.m */; };
+		1394B94F193AFE2B00277712 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B94E193AFE2B00277712 /* DataViewController.m */; };
+		1394B952193AFE2B00277712 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B951193AFE2B00277712 /* ModelController.m */; };
+		1394B955193AFE2B00277712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1394B953193AFE2B00277712 /* Main.storyboard */; };
+		1394B957193AFE2B00277712 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1394B956193AFE2B00277712 /* Images.xcassets */; };
+		1394B95E193AFE2C00277712 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B95D193AFE2C00277712 /* XCTest.framework */; };
+		1394B95F193AFE2C00277712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B938193AFE2B00277712 /* Foundation.framework */; };
+		1394B960193AFE2C00277712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1394B93C193AFE2B00277712 /* UIKit.framework */; };
+		1394B968193AFE2C00277712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1394B966193AFE2C00277712 /* InfoPlist.strings */; };
+		1394B96A193AFE2C00277712 /* ShelterConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394B969193AFE2C00277712 /* ShelterConnectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1394B961193AFE2C00277712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1394B92D193AFE2B00277712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1394B934193AFE2B00277712;
+			remoteInfo = ShelterConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1394B935193AFE2B00277712 /* ShelterConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShelterConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1394B938193AFE2B00277712 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1394B93A193AFE2B00277712 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1394B93C193AFE2B00277712 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1394B940193AFE2B00277712 /* ShelterConnect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShelterConnect-Info.plist"; sourceTree = "<group>"; };
+		1394B942193AFE2B00277712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1394B944193AFE2B00277712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1394B946193AFE2B00277712 /* ShelterConnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShelterConnect-Prefix.pch"; sourceTree = "<group>"; };
+		1394B947193AFE2B00277712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1394B948193AFE2B00277712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1394B94A193AFE2B00277712 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1394B94B193AFE2B00277712 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1394B94D193AFE2B00277712 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		1394B94E193AFE2B00277712 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		1394B950193AFE2B00277712 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		1394B951193AFE2B00277712 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		1394B954193AFE2B00277712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1394B956193AFE2B00277712 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1394B95C193AFE2C00277712 /* ShelterConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShelterConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1394B95D193AFE2C00277712 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1394B965193AFE2C00277712 /* ShelterConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShelterConnectTests-Info.plist"; sourceTree = "<group>"; };
+		1394B967193AFE2C00277712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1394B969193AFE2C00277712 /* ShelterConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShelterConnectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1394B932193AFE2B00277712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B93B193AFE2B00277712 /* CoreGraphics.framework in Frameworks */,
+				1394B93D193AFE2B00277712 /* UIKit.framework in Frameworks */,
+				1394B939193AFE2B00277712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1394B959193AFE2C00277712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B95E193AFE2C00277712 /* XCTest.framework in Frameworks */,
+				1394B960193AFE2C00277712 /* UIKit.framework in Frameworks */,
+				1394B95F193AFE2C00277712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1394B92C193AFE2B00277712 = {
+			isa = PBXGroup;
+			children = (
+				1394B93E193AFE2B00277712 /* ShelterConnect */,
+				1394B963193AFE2C00277712 /* ShelterConnectTests */,
+				1394B937193AFE2B00277712 /* Frameworks */,
+				1394B936193AFE2B00277712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1394B936193AFE2B00277712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1394B935193AFE2B00277712 /* ShelterConnect.app */,
+				1394B95C193AFE2C00277712 /* ShelterConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1394B937193AFE2B00277712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1394B938193AFE2B00277712 /* Foundation.framework */,
+				1394B93A193AFE2B00277712 /* CoreGraphics.framework */,
+				1394B93C193AFE2B00277712 /* UIKit.framework */,
+				1394B95D193AFE2C00277712 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1394B93E193AFE2B00277712 /* ShelterConnect */ = {
+			isa = PBXGroup;
+			children = (
+				1394B947193AFE2B00277712 /* AppDelegate.h */,
+				1394B948193AFE2B00277712 /* AppDelegate.m */,
+				1394B94A193AFE2B00277712 /* RootViewController.h */,
+				1394B94B193AFE2B00277712 /* RootViewController.m */,
+				1394B94D193AFE2B00277712 /* DataViewController.h */,
+				1394B94E193AFE2B00277712 /* DataViewController.m */,
+				1394B950193AFE2B00277712 /* ModelController.h */,
+				1394B951193AFE2B00277712 /* ModelController.m */,
+				1394B953193AFE2B00277712 /* Main.storyboard */,
+				1394B956193AFE2B00277712 /* Images.xcassets */,
+				1394B93F193AFE2B00277712 /* Supporting Files */,
+			);
+			path = ShelterConnect;
+			sourceTree = "<group>";
+		};
+		1394B93F193AFE2B00277712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1394B940193AFE2B00277712 /* ShelterConnect-Info.plist */,
+				1394B941193AFE2B00277712 /* InfoPlist.strings */,
+				1394B944193AFE2B00277712 /* main.m */,
+				1394B946193AFE2B00277712 /* ShelterConnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1394B963193AFE2C00277712 /* ShelterConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1394B969193AFE2C00277712 /* ShelterConnectTests.m */,
+				1394B964193AFE2C00277712 /* Supporting Files */,
+			);
+			path = ShelterConnectTests;
+			sourceTree = "<group>";
+		};
+		1394B964193AFE2C00277712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1394B965193AFE2C00277712 /* ShelterConnectTests-Info.plist */,
+				1394B966193AFE2C00277712 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1394B934193AFE2B00277712 /* ShelterConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1394B96D193AFE2C00277712 /* Build configuration list for PBXNativeTarget "ShelterConnect" */;
+			buildPhases = (
+				1394B931193AFE2B00277712 /* Sources */,
+				1394B932193AFE2B00277712 /* Frameworks */,
+				1394B933193AFE2B00277712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShelterConnect;
+			productName = ShelterConnect;
+			productReference = 1394B935193AFE2B00277712 /* ShelterConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1394B95B193AFE2C00277712 /* ShelterConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1394B970193AFE2C00277712 /* Build configuration list for PBXNativeTarget "ShelterConnectTests" */;
+			buildPhases = (
+				1394B958193AFE2C00277712 /* Sources */,
+				1394B959193AFE2C00277712 /* Frameworks */,
+				1394B95A193AFE2C00277712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1394B962193AFE2C00277712 /* PBXTargetDependency */,
+			);
+			name = ShelterConnectTests;
+			productName = ShelterConnectTests;
+			productReference = 1394B95C193AFE2C00277712 /* ShelterConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1394B92D193AFE2B00277712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hack for LA project";
+				TargetAttributes = {
+					1394B95B193AFE2C00277712 = {
+						TestTargetID = 1394B934193AFE2B00277712;
+					};
+				};
+			};
+			buildConfigurationList = 1394B930193AFE2B00277712 /* Build configuration list for PBXProject "ShelterConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1394B92C193AFE2B00277712;
+			productRefGroup = 1394B936193AFE2B00277712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1394B934193AFE2B00277712 /* ShelterConnect */,
+				1394B95B193AFE2C00277712 /* ShelterConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1394B933193AFE2B00277712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B957193AFE2B00277712 /* Images.xcassets in Resources */,
+				1394B943193AFE2B00277712 /* InfoPlist.strings in Resources */,
+				1394B955193AFE2B00277712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1394B95A193AFE2C00277712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B968193AFE2C00277712 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1394B931193AFE2B00277712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B94F193AFE2B00277712 /* DataViewController.m in Sources */,
+				1394B949193AFE2B00277712 /* AppDelegate.m in Sources */,
+				1394B952193AFE2B00277712 /* ModelController.m in Sources */,
+				1394B945193AFE2B00277712 /* main.m in Sources */,
+				1394B94C193AFE2B00277712 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1394B958193AFE2C00277712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B96A193AFE2C00277712 /* ShelterConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1394B962193AFE2C00277712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1394B934193AFE2B00277712 /* ShelterConnect */;
+			targetProxy = 1394B961193AFE2C00277712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1394B941193AFE2B00277712 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1394B942193AFE2B00277712 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1394B953193AFE2B00277712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1394B954193AFE2B00277712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1394B966193AFE2C00277712 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1394B967193AFE2C00277712 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1394B96B193AFE2C00277712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1394B96C193AFE2C00277712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1394B96E193AFE2C00277712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelterConnect/ShelterConnect-Prefix.pch";
+				INFOPLIST_FILE = "ShelterConnect/ShelterConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1394B96F193AFE2C00277712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelterConnect/ShelterConnect-Prefix.pch";
+				INFOPLIST_FILE = "ShelterConnect/ShelterConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1394B971193AFE2C00277712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShelterConnect.app/ShelterConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelterConnect/ShelterConnect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShelterConnectTests/ShelterConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1394B972193AFE2C00277712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShelterConnect.app/ShelterConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelterConnect/ShelterConnect-Prefix.pch";
+				INFOPLIST_FILE = "ShelterConnectTests/ShelterConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1394B930193AFE2B00277712 /* Build configuration list for PBXProject "ShelterConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1394B96B193AFE2C00277712 /* Debug */,
+				1394B96C193AFE2C00277712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1394B96D193AFE2C00277712 /* Build configuration list for PBXNativeTarget "ShelterConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1394B96E193AFE2C00277712 /* Debug */,
+				1394B96F193AFE2C00277712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1394B970193AFE2C00277712 /* Build configuration list for PBXNativeTarget "ShelterConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1394B971193AFE2C00277712 /* Debug */,
+				1394B972193AFE2C00277712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1394B92D193AFE2B00277712 /* Project object */;
+}
